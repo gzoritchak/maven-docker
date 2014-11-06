@@ -3,10 +3,7 @@
 
 start_time=`date +%s`
 
-# Build new image
-echo "build image"
 docker build -t helloworld .
-
 docker rm -f helloworld
 
 docker run -d \
