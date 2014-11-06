@@ -3,9 +3,10 @@ inside docker.
 
 To see the strategies are defined in different branches. 
 
-Checkout one of the branch to see explore the corresponding strategy. 
+Checkout one of the branch to explore the corresponding strategy. 
 
+```
 git checkout direct
 git checkout preload
 git checkout maven-cache
-
+```
