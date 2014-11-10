@@ -1,7 +1,6 @@
 FROM java:8
 MAINTAINER Gaetan Zoritchak
 
-# Add sources
 VOLUME /project
 WORKDIR /project
 
